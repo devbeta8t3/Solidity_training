@@ -8,36 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "m1",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "m2",
+				"name": "balanceReceived",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -45,14 +26,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "setA1ToTrue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setM2ToTrue",
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawAllMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,12 +60,17 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_key",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setValueM1",
+				"name": "withdrawMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -84,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TestMapping.sol": "TestMapping"
+			"TestMapping2.sol": "TestMapping2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"TestMapping.sol": {
-			"keccak256": "0xe697266cbec7e032d9f753f1630cd093d350dd17fee7237a9e419ca6c9a262ff",
+		"TestMapping2.sol": {
+			"keccak256": "0xb1978f29659a206111fca30910d813fe89b4fd2dcc58fcbffc6198b401133a0c",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://940cda43a3298be5f0696f5234c3f03a2dbc966087e0e2507ae279aaf0795f57",
-				"dweb:/ipfs/QmPDSPYVjgfR9HuZLdZA7JFAagLxs3imfdmCaN9zuDx2X4"
+				"bzz-raw://30cb3e3191c686c1b8571c31b32831dc376b734e48e39c68c6d2bbd5b7f6e7fd",
+				"dweb:/ipfs/Qmej31RmtcBdnCvzx51xf6USL7psvjo34taDANkFUSCsnD"
 			]
 		}
 	},
