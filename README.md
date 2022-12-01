@@ -5,7 +5,9 @@
 내용: 스마트 계약
 
 Skills:
-- Remix IDE
+- Remix IDE (VS Code)
 - Solidity
 - Ganache
 
+References:
+- https://docs.soliditylang.org/
