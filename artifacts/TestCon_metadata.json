@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					}
+				],
+				"name": "setStr1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "str1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CryptoZombie\\TestCon.sol": "TestCon"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CryptoZombie\\TestCon.sol": {
+			"keccak256": "0x12219acca39c4ef3c5797bf646741336fa19f96b6b348788172494fa08bd49c8",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://506cf3bb9a0912557729ba9b340b9440b391207e5c23ec1371b861354215b515",
+				"dweb:/ipfs/QmWjHShKzVwubng3gLAswZbX9QGC2KGty4kSD5e2Mt9WYi"
+			]
+		}
+	},
+	"version": 1
+}
