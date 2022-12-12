@@ -7,12 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "isOneEther",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "changeCounter",
+				"name": "isOneWei",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "onWei",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,41 +46,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "oneEther",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "theMessage",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_newMessage",
-						"type": "string"
-					}
-				],
-				"name": "updateTheMessage",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -76,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project1_BlockMessenger.sol": "TheBlockchainMessenger"
+			"SolidityByExamples\\basic_8_EtherAndWei.sol": "EtherUnits"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -90,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project1_BlockMessenger.sol": {
-			"keccak256": "0xb368654187c9b8261c24016c7bb5c0db95f54b36b4aedfa6d6da6054b1ea4330",
+		"SolidityByExamples\\basic_8_EtherAndWei.sol": {
+			"keccak256": "0x3ba3e5bc75bbdec61ac37eed370e54273e3e22a1735165aa721896a7379203b8",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://3bdcc41f342e79229bd4d82208fb1d5b94153ade7d098178b5904f5f61c288bd",
-				"dweb:/ipfs/QmcNT3mLjwSmJzebXttEw6E2jLFgyQG7Qo2DFJnNg4K1F2"
+				"bzz-raw://c956e079d25e4a4ae5db4296fd29636145b1ad88699095baea0fd0c57287aed1",
+				"dweb:/ipfs/QmPzbNkypwCgLh4HCiK1vQss364N47JwJtvdwUE59UTw8R"
 			]
 		}
 	},

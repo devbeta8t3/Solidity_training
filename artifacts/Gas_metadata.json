@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExamples\\basic_10_IfElse.sol": "Gas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExamples\\basic_10_IfElse.sol": {
+			"keccak256": "0x0f6fbff65007438d9a061bd43e12be5be5177a167cca98bd0ed1cfdc3e933354",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://0d02a70c5b46abafd5e7ca3e1b80a3a514ba069b79513dfc36dfa1c939f80ada",
+				"dweb:/ipfs/QmRSM4GxcRjc9CveaS9ZBfZnUULK9P2npEA6z5jhxyczhk"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nested",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_boo",
+						"type": "bool"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExamples\\basic_12_Mapping.sol": "NestedMapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExamples\\basic_12_Mapping.sol": {
+			"keccak256": "0x751fc5e4061aae41d321a090fc96155a5bd2f51227cab2f8ab435feb24f8338a",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://9cf9b237ca7683f1ba25e2e6a88568ec56687cbce44f200663152c047b34ecca",
+				"dweb:/ipfs/QmYDLunBEm2zK3CcKKBx8AnDjekr64wGApua5D19yYx5fF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,13 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "changeCounter",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -24,26 +25,19 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "theMessage",
+				"name": "myMap",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -52,12 +46,30 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_newMessage",
-						"type": "string"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"name": "updateTheMessage",
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -76,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project1_BlockMessenger.sol": "TheBlockchainMessenger"
+			"SolidityByExamples\\basic_12_Mapping.sol": "Mapping"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -90,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project1_BlockMessenger.sol": {
-			"keccak256": "0xb368654187c9b8261c24016c7bb5c0db95f54b36b4aedfa6d6da6054b1ea4330",
+		"SolidityByExamples\\basic_12_Mapping.sol": {
+			"keccak256": "0x751fc5e4061aae41d321a090fc96155a5bd2f51227cab2f8ab435feb24f8338a",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://3bdcc41f342e79229bd4d82208fb1d5b94153ade7d098178b5904f5f61c288bd",
-				"dweb:/ipfs/QmcNT3mLjwSmJzebXttEw6E2jLFgyQG7Qo2DFJnNg4K1F2"
+				"bzz-raw://9cf9b237ca7683f1ba25e2e6a88568ec56687cbce44f200663152c047b34ecca",
+				"dweb:/ipfs/QmYDLunBEm2zK3CcKKBx8AnDjekr64wGApua5D19yYx5fF"
 			]
 		}
 	},

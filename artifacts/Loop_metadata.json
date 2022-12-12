@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExamples\\basic_11_ForWhileLoop.sol": "Loop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExamples\\basic_11_ForWhileLoop.sol": {
+			"keccak256": "0xfa80ad263a1c1fde727685c4992ce3c319440cf790b5a73888dee38d79858012",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://e6834f22d9d3e74ee2a6c0e9529454f99dd630ade98a6300a723b82965be1eba",
+				"dweb:/ipfs/QmNayXuW6dbHfkF29mS256GkoS6gNrT4k3QrToWC6Q3WeL"
+			]
+		}
+	},
+	"version": 1
+}
